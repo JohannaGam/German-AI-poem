@@ -17,12 +17,20 @@ h1 {
   line-height: 1.5;
   color: black;
 }
-form {
-  padding: 30px;
+.form-wrapper {
+  padding: 20px;
   background-color: white;
   border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+}
+form {
+  display: flex;
+}
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 12px;
+  opacity: 0.6;
 }
 .prompt {
   padding: 20px;
@@ -52,6 +60,17 @@ form {
 }
 .poem strong {
   color: coral;
+}
+.hidden {
+  display: none;
+}
+.generating {
+  animation: blink 1s step-start 0s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 footer {
   margin-top: 30px;
