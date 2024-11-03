@@ -48,7 +48,10 @@ form {
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid coral;
+  border-left: 4px solid coral;
+}
+.poem strong {
+  color: coral;
 }
 footer {
   margin-top: 30px;
